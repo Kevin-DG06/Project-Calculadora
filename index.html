@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="container">
+        <form action="" name="calculadora">
+            <input type="text" name="display" class="display" disabled>
+            <input type="button" class="reload" value="C" name="reload" onclick="location.reload()"><br>
+
+            <input type="button" class="num colormax" value="7" name="btn7" onclick="displaynum(btn7.value)">
+            <input type="button" class="num colormax" value="8" name="btn8" onclick="displaynum(btn8.value)">
+            <input type="button" class="num colormax" value="9" name="btn9" onclick="displaynum(btn9.value)">
+            <input type="button" class="num colorop" value="/" name="btndiv" onclick="displaynum(btndiv.value)"><br> 
+
+            <input type="button" class="num colormax" value="4" name="btn4" onclick="displaynum(btn4.value)">
+            <input type="button" class="num colormax" value="5" name="btn5" onclick="displaynum(btn5.value)">
+            <input type="button" class="num colormax" value="6" name="btn6" onclick="displaynum(btn6.value)">
+            <input type="button" class="num colorop" value="*" name="btnmult" onclick="displaynum(btnmult.value)"><br>
+
+            <input type="button" class="num colormax" value="1" name="btn1" onclick="displaynum(btn1.value)">
+            <input type="button" class="num colormax" value="2" name="btn2" onclick="displaynum(btn2.value)">
+            <input type="button" class="num colormax" value="3" name="btn3" onclick="displaynum(btn3.value)">
+            <input type="button" class="num colorop" value="-" name="btnsub" onclick="displaynum(btnsub.value)"><br>
+
+            <input type="button" class="num colormax" value="." name="pont" onclick="displaynum(pont.value)">
+            <input type="button" class="num colormax" value="0" name="btn0" onclick="displaynum(btn0.value)">
+            <input type="button" class="num colormax" value="=" name="btnresult" onclick="display.value=eval(display.value)">
+            <input type="button" class="num colorop" value="+" name="btnadd" onclick="displaynum(btnadd.value)"><br>
+        </form>
+    </main>
+</body>
+</html>
